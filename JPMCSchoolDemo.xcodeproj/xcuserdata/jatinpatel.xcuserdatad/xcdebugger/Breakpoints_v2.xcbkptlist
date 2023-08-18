@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "999B84E7-23A6-4842-89DB-D472A5667765"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "903A7F0C-5558-41D1-9FCF-743050F1F96C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JPMCSchoolDemo/ScreenViews/SchoolDetails/ViewModel/SchoolDetailsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "getExamResult(schoolDbn:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "903A7F0C-5558-41D1-9FCF-743050F1F96C - 48f7a6a74f010b47"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (JPMCSchoolDemo.ExamResult) -&gt; Swift.Bool in JPMCSchoolDemo.SchoolDetailsViewModel.getExamResult(schoolDbn: Swift.String) -&gt; ()"
+                  moduleName = "JPMCSchoolDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jatinpatel/Documents/Projects/JPMCSchoolDemo/JPMCSchoolDemo/ScreenViews/SchoolDetails/ViewModel/SchoolDetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "903A7F0C-5558-41D1-9FCF-743050F1F96C - 8d9da1dcbeb0d577"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JPMCSchoolDemo.SchoolDetailsViewModel.getExamResult(schoolDbn: Swift.String) -&gt; ()"
+                  moduleName = "JPMCSchoolDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jatinpatel/Documents/Projects/JPMCSchoolDemo/JPMCSchoolDemo/ScreenViews/SchoolDetails/ViewModel/SchoolDetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "903A7F0C-5558-41D1-9FCF-743050F1F96C - 48f7a6a74f010aa6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (JPMCSchoolDemo.ExamResult) -&gt; Swift.Bool in JPMCSchoolDemo.SchoolDetailsViewModel.getExamResult(schoolDbn: Swift.String) -&gt; ()"
+                  moduleName = "JPMCSchoolDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jatinpatel/Documents/Projects/JPMCSchoolDemo/JPMCSchoolDemo/ScreenViews/SchoolDetails/ViewModel/SchoolDetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2370591A-05DE-449D-A18F-1244B3A3AC79"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JPMCSchoolDemo/ScreenViews/SchoolDetails/ViewModel/SchoolDetailsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "getExamResult(schoolDbn:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2370591A-05DE-449D-A18F-1244B3A3AC79 - 8d9da1dcbeb0d40a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JPMCSchoolDemo.SchoolDetailsViewModel.getExamResult(schoolDbn: Swift.String) -&gt; ()"
+                  moduleName = "JPMCSchoolDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jatinpatel/Documents/Projects/JPMCSchoolDemo/JPMCSchoolDemo/ScreenViews/SchoolDetails/ViewModel/SchoolDetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "672">
+               </Location>
+               <Location
+                  uuid = "2370591A-05DE-449D-A18F-1244B3A3AC79 - 8d9da1dcbeb0d4eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JPMCSchoolDemo.SchoolDetailsViewModel.getExamResult(schoolDbn: Swift.String) -&gt; ()"
+                  moduleName = "JPMCSchoolDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jatinpatel/Documents/Projects/JPMCSchoolDemo/JPMCSchoolDemo/ScreenViews/SchoolDetails/ViewModel/SchoolDetailsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "252">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

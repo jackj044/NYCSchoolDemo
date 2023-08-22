@@ -8,12 +8,12 @@
 import Foundation
 import Combine
 
-final class SchoolDetailsViewModel: ObservableObject {
+class SchoolDetailsViewModel: ObservableObject {
     
     @Published private(set) var examResults = [ExamResult]()
     @Published var schoolExamResult: ExamResult?
     private var cancellables = Set<AnyCancellable>()
-    private let networkManager: any NetworkManagerDelegate
+    private weak var networkManager: (any NetworkManagerDelegate)?
     
     init(networkManager: any NetworkManagerDelegate = NetworkManager.shared) {
         self.networkManager = networkManager
@@ -21,7 +21,7 @@ final class SchoolDetailsViewModel: ObservableObject {
     
     @MainActor
     func fetchExamResults(schoolDbn:String) async {
-        await networkManager.request(endpoint: .examResults, httpMethod: .GET, parameters: [:], type: [ExamResult].self).sink { completion in
+        await networkManager?.request(endpoint: .examResults, httpMethod: .GET, parameters: [:], type: [ExamResult].self).sink { completion in
                 switch completion {
                 case .failure(let err):
                     print("Error is \(err.localizedDescription)")

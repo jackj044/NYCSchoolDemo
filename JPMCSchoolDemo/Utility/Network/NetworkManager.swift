@@ -22,11 +22,11 @@ enum HttpMethods: String {
 }
 
 
-protocol NetworkManagerDelegate {
+protocol NetworkManagerDelegate:AnyObject {
     func request<T: Decodable>(endpoint: Endpoint,httpMethod:HttpMethods, parameters: [String: Any], type: T.Type) async -> Future<T, Error>
 }
 
-final class NetworkManager: NetworkManagerDelegate {
+class NetworkManager: NetworkManagerDelegate {
     static let shared = NetworkManager()
        
        private init() {

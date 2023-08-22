@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 import Combine
 
-final class SchoolListViewModel: ObservableObject {
+class SchoolListViewModel: ObservableObject {
     @Published private(set) var schools = [School]()
     @Published var searchString = ""
     @Published var isLoading = false
